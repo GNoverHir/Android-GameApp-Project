@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GamesProject</string>
+    <string name="ja_possui_conta_clique_aqui"><u>Já possui conta? Clique Aqui!</u></string>
+    <string name="nao_possui_conta_cadastre"><u>Não possui conta? Cadastre-se aqui!</u></string>
+</resources>
