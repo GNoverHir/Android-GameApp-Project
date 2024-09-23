@@ -13,13 +13,13 @@
         android:theme="@style/Theme.GamesProject"
         tools:targetApi="31">
         <activity
-            android:name=".StartApplicationActivity"
+            android:name=".ui.profile.StartApplicationActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".ui.login.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".SingUpActivity"
+            android:name=".ui.register.SingUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

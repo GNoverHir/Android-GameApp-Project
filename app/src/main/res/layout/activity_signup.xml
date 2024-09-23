@@ -6,7 +6,7 @@
     android:background="@drawable/backgroundimage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingUpActivity">
+    tools:context=".ui.register.SingUpActivity">
 
     <ImageView
         android:id="@+id/gamesLogoImageView"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Nickname"
+        android:hint="Nickname"
         app:layout_constraintTop_toBottomOf="@id/signUpTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,7 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textEmailAddress"
-        android:text="Email"
+        android:hint="Email"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password"
+        android:hint="Password"
         app:layout_constraintTop_toBottomOf="@id/emailSignUpEditText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
         android:paddingBottom="5dp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -92,7 +92,7 @@
         android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/signupLinkTextView"
+        android:id="@+id/signInLinkTextView"
         android:layout_width="0dp"
         android:gravity="center"
         android:layout_height="wrap_content"
@@ -100,9 +100,9 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/ja_possui_conta_clique_aqui"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@id/button"
-        app:layout_constraintStart_toStartOf="@id/button"
-        app:layout_constraintTop_toBottomOf="@id/button" />
+        app:layout_constraintEnd_toEndOf="@id/buttonSignUp"
+        app:layout_constraintStart_toStartOf="@id/buttonSignUp"
+        app:layout_constraintTop_toBottomOf="@id/buttonSignUp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
